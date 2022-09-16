@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinkesh</title>
+    <link rel="stylesheet" href="index1.css">
+    <script src="https://kit.fontawesome.com/2ccca583f5.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2ccca583f5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <div class="header">
+        <h1>Tinkesh Bhoyar</h1>
+        <nav>
+            <ul>
+                <li><a href="#" class="dis"><i class="fa-solid fa-house-user"></i>Home</a></li>
+                <li><a href="#skill" class="dis"><i class="fa-solid fa-skull"></i>Skills</a></li>
+                <li><a href="#" class="dis"><i class="fa-solid fa-phone"></i>ContectMe</a></li>
+                <li><a href="#" class="dis"><i class="fa-solid fa-user"></i>AboutMe</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <img src="images/Snapchat-1361869892.jpg">
+       <div class="content">
+        <h1>Hi,There</h1>
+       <h1>I'm Tinkesh Bhoyar</h1>
+       <p>I am CSE Student</p>
+       <button><a href="">About Me</a></button>
+       </div>
+       <div class="font">
+        <a href="https://www.instagram.com/?hl=en"><i  class="fa-brands fa-instagram"></i></i></a>
+        <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://github.com/tinkesh77"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+       </div>
+    </div>
+    <div class="templete">
+        <h1>Skills</h1>
+    </div>
+    <div id="skill" class="skills">
+        <div class="web">
+            <h2>Web Development</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Recat.js</li>
+            </ul>
+        </div>
+        <div class="lang">
+            <h2>Programing Language</h2>
+            <ul>
+                <li>Java</li>
+                <li>C/C++</li>
+        
+            </ul>
+        </div>
+        <div class="soft">
+            <h2 class="soft-h">Soft Skills</h2>
+            <ul>
+                <li>Communcation Skills</li>
+                <li> Fast lerner</li>
+                
+            </ul>
+        </div>
+    </div>
+    <section class="contectme">
+        <h1>Contect Me</h1>
+        <div class="us">
+            <iframe  class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d17509.719022422425!2d75.8301238760445!3d22.692347197759773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1662899575902!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <label for="first-name" class="name"> 
+                <i class="fa-solid fa-user"></i>
+             <input id="first-name" name="first-name" type="text" required placeholder="Name"/></label>
+             <label for="email" class="email"> 
+                <i class="fa-solid fa-envelope"></i>
+             <input id="email" name="email" type="email" required placeholder="Email" /></label>
+             <label for="phone" class="phone">
+                <i class="fa-solid fa-phone"></i>    
+             <input id="Phone" name="email" type="tel" required placeholder="Phone" /></label>
+             <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Messagee"></textarea>
+         </div>
+         <input type="submit" value="Submit" />
+     </div>
+    </section>
+    <section class="aboutme"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY > 0);
+        })
+        
+    </script>
+    
+</body>
+</html>

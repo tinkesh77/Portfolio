@@ -1,0 +1,289 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif Arial, Helvetica, sans-serif;
+    /* background-image: url(images/5403537.jpg); */
+    background-color: #485461;
+}
+html{
+    scroll-behavior:smooth ;
+}
+.header{  
+   position: fixed;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   background-color: #fff;
+   width: 100%;
+   height: 70px;
+   z-index: 1;
+   top: 0;
+   background-color: #485461;
+   border-radius: 5px;
+   /* border-bottom-style: #fff ; */
+}
+header.sticky{
+ background-color: aliceblue;
+}
+.header h1{
+    width: 50%;
+    margin-left: -48%;
+    margin-top: 1%;
+}
+.header nav{ 
+    width: 40%;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    /* border-style: solid; */
+    margin-left: 0%;
+    background-color: #33495e;
+    border-radius: 8px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 1);
+}
+ .header nav ul{
+    /* border-style: solid; */
+    display: flex;
+    
+}
+.header nav ul li{
+    margin-left: 3%;
+    list-style: none;
+    /* border-style: solid; */
+    margin-left: 7%;
+}
+.header nav ul li a{
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1    0px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  text-align: center;
+} 
+
+.container{
+     /* border-style: double; */
+     width: 100%;
+     height: 90%;
+     
+}
+.content{
+    /* border-style: double; */
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 15%;
+    /* border-style: double; */
+    width: 30%;
+}
+.font{
+    /* border-style: double; */
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 1%;
+    width: 30%;
+}
+.font a{
+    /* border-style: double; */
+     margin: 1%;
+    size: 7%;
+}
+.fa-brands{
+     font-size: x-large;
+}
+.content button{
+    padding: 1.5%;
+    border: none;
+    background-color: #23272b;
+    border-radius: 3px;
+}
+.content button a{
+    color: aliceblue;
+    margin-left: 12px;
+    margin-right: 12px;
+    text-decoration: none;    
+}
+.container img{
+    height: 38%;
+    width: 20%;
+    position: absolute;
+    left: 50%;
+    bottom: 32%;
+    border-radius: 50px;
+}
+.fa-brands {
+  color: blue;
+}
+.container{
+    /* border-style: dashed; */
+}
+.skills{
+    /* border-style: dashed; */
+    height: 50%;
+    margin: 1px;
+    display: flex;
+}
+.templete{
+    /* border-style: dashed; */
+    width: 100%;
+    /* margin-left: 45%; */
+    text-align: center;
+    position: relative;
+    bottom: 5%;
+    /* background-color: aliceblue; */
+    border-bottom-style: inset;
+}
+.templete h1{
+    margin-left: 5%;
+    margin-right: 10px;
+    margin-bottom: 1%;
+}
+.soft{
+    left: 68%;
+    position: absolute;
+    transition: .5s;
+    /* border-style: dashed; */
+    height: 26%;
+    width: 20%;
+    border-radius: 9px;
+}
+.lang{
+    left: 40%;
+    transition: .5s;
+    /* border-style: dashed; */
+       position: absolute;
+       height: 26%;
+       border-radius: 9px;
+ }
+ .web{
+    position: absolute;
+    /* border-style: dashed; */
+   left: 15%;
+   /* transition: font-size 4s 1s; */
+   transition: .5s;
+   border-radius: 9px;
+   height: 26%;
+   width: 18%;
+    
+ }
+ header.sticky ul li a{
+  color: aliceblue;
+ }
+ .web h2{
+    /* font-size: 30px; */
+    /* border-style: dashed; */
+ }
+.web:hover{
+    /* font-size: 36px; */
+    background-color: black;
+    transform: scale(1.3);
+    color: #fff;
+}
+.soft:hover{
+    background-color: black;
+    color: #fff;
+    transform: scale(1.3);
+
+}
+.lang:hover{
+    background-color: black;
+    transform: scale(1.3);
+    color: #fff;
+}
+.soft h2{
+    /* border-style: dashed; */
+    text-align: center;
+    width: 99%;
+}
+.lang h2{
+    /* border-style: dashed; */
+}
+.dis{
+    /* position: absolute;
+    border-style: dashed; */
+}
+.dis i{
+    /* border-style: dashed; */
+    margin-right: 8px;
+    margin-bottom: 8px;
+} 
+.web h2{
+    text-align: center;
+}
+.contectme{
+    /* border-style: dashed; */
+    width: 99.5%;
+    height: 60%;
+    border-top-style: #fff;
+}
+.contectme h1{
+    /* border-style: dashed; */
+    position: relative;
+    top: 8%;
+    left: 4.5%;
+}
+.us{
+    /* border-style: dashed/ */
+    height: 50%;
+    display: grid;
+    margin-bottom: 2%;
+}
+#bio{
+    /* border-style: dashed; */
+    width: 20%;
+    height: 190%;
+    position: relative;
+    left: 18%;
+    bottom: 210%;
+    margin-left: 2%;
+}
+#first-name{
+    margin-top: 2%;
+    margin-left: 2%;
+    
+}
+#email {
+  margin-left: 2%;
+  margin-top: 1%;
+}
+#Phone{
+    margin-left: 1.9%;
+    margin-top: 1%;
+}
+.name i{
+    margin-left: 1%;
+    position: relative;
+    left: 1%;
+}
+.email i{
+    margin-left: 1%;
+    position: relative;
+    left: 1%;
+}
+.phone i{
+    margin-left: 1%;
+    position: relative;
+    left: 1%;
+}
+input[type="submit"] {
+    display: block;
+    width: 1%;
+    margin: -2em 3.6em;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color:  #ff9933;
+    border-color: white;
+    min-width: 150px;
+    border-radius: 3px;
+    color:  #fff;
+  }
+  .map{
+    position: absolute;
+    width: 30%;
+    left: 50%;
+    height: 28%;
+  }
